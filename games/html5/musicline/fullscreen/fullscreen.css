@@ -1,0 +1,67 @@
+/* Fullscreen CSS vseigru.net 2016 */
+html{
+	width:100%;
+	height:100%;
+}
+body {
+	margin:0!important;
+}
+#full a {
+	display: inline-block;
+	text-decoration: none;
+	/*background: rgba(255,255,255,0.5);*/
+	border-radius: 8px;
+	color: #333;
+	position: fixed;
+	right: 0px;
+	bottom: 0;
+	z-index: 9999;
+	font-family: Arial;
+	font-size: 18px;
+}
+#no_full a {
+	display: inline-block;
+	text-decoration: none;
+	/*background: rgba(255,255,255,0.5);*/
+	border-radius: 8px;
+	color: #333;
+	position: fixed;
+	right: 0px;
+	bottom: 0;
+	z-index: 9999;
+	font-family: Arial;
+	font-size: 18px;
+}
+#full a img {
+	cursor: pointer;
+}
+#no_full a img {
+	cursor: pointer;
+}
+.tooltip{
+	display: inline;
+    position: relative;
+}
+.tooltip:hover:after{
+	background: #333;
+	background: rgba(0, 176, 215, 0.5);
+	border-radius: 5px;
+	bottom: 36px;
+	color: #fff;
+	content: attr(title);
+	right: 20%;
+	padding: 5px 15px;
+	position: absolute;
+	z-index: 98;
+	width: 220px;
+}
+.tooltip:hover:before{
+	border: solid;
+	border-color: #333 transparent;
+	border-width: 6px 6px 0 6px;
+	bottom: 30px;
+	content: "";
+	right: 50%;
+	position: absolute;
+	z-index: 99;
+}

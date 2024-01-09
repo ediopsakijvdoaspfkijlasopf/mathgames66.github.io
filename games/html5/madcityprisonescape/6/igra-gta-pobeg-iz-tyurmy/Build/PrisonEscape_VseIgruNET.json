@@ -1,0 +1,16 @@
+{
+"companyName": "Extreme Games",
+"productName": "Mad City Prison Escape",
+"dataUrl": "PrisonEscape_VseIgruNET.data.unityweb",
+"wasmCodeUrl": "PrisonEscape_VseIgruNET.wasm.code.unityweb",
+"wasmFrameworkUrl": "PrisonEscape_VseIgruNET.wasm.framework.unityweb",
+"asmCodeUrl": "PrisonEscape_VseIgruNET.asm.code.unityweb",
+"asmMemoryUrl": "PrisonEscape_VseIgruNET.asm.memory.unityweb",
+"asmFrameworkUrl": "PrisonEscape_VseIgruNET.asm.framework.unityweb",
+"TOTAL_MEMORY": 1073741824,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#000000",
+"cacheControl": {"default": "must-revalidate"}
+}

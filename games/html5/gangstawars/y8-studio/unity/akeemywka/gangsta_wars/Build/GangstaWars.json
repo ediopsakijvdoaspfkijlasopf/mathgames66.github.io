@@ -1,0 +1,13 @@
+{
+"companyName": "DefaultCompany",
+"productName": "Gangsta Wars",
+"dataUrl": "GangstaWars.data.unityweb",
+"asmCodeUrl": "GangstaWars.asm.code.unityweb",
+"asmMemoryUrl": "GangstaWars.asm.memory.unityweb",
+"asmFrameworkUrl": "GangstaWars.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}

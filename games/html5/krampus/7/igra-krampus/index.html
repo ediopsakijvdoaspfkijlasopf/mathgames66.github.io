@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Игра Крампус - Vseigru.net</title>
+<link rel="stylesheet" href="/lib/game-loader/gameloader2020.css" />
+<script src="/lib/game-loader/gameloader2020.js"></script>
+<script src="/lib/game-loader/gameloader-helper.js"></script>
+<meta charset="UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+<script type="text/javascript">
+	var options = {
+		author: "Vseigru",
+		logo: "logo.jpg",
+		gameName: "Игра Крампус",
+		gameNameEu: "Krampus",
+		gameUrl: "/igry-strashnye/36128-igra-krampus.html",
+		moreLink: ("https://vseigru.net"),
+		allowFullscreen: true,
+		locale: "ru_RU",
+		loader: "unity2020",
+		loaderOptions: {
+			unityLoaderUrl: "Build/55b027cfe78bae9b0fbebad0d7c12abd.js",
+			unityConfigOptions: {
+				dataUrl: "Build/ed1a544d3569a81201b2fc14d41a6032.data",
+				frameworkUrl: "Build/5e8836a8ba3f481bcca83e4a4f5bbafc.js",
+			    codeUrl: "Build/7206c59f1040185fe88441185d809ca7.wasm",
+				streamingAssetsUrl: "StreamingAssets"
+			}
+		},
+    };
+	GameInit.load(options);	  
+</script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+{
+"companyName": "IgroUtka Games",
+"productName": "Inferno",
+"dataUrl": "webgl-v03-+reklamaGDpause.data.unityweb",
+"wasmCodeUrl": "webgl-v03-+reklamaGDpause.wasm.code.unityweb",
+"wasmFrameworkUrl": "webgl-v03-+reklamaGDpause.wasm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}

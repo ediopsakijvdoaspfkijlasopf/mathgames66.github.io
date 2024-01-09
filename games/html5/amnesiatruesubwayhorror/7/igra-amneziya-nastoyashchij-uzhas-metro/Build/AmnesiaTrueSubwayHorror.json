@@ -1,0 +1,13 @@
+{
+"companyName": "Poison Games",
+"productName": "Amnesia: True Subway Horror",
+"dataUrl": "AmnesiaTrueSubwayHorror.data.unityweb",
+"wasmCodeUrl": "AmnesiaTrueSubwayHorror.wasm.code.unityweb",
+"wasmFrameworkUrl": "AmnesiaTrueSubwayHorror.wasm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"backgroundUrl": "AmnesiaTrueSubwayHorror.jpg",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#FFFFFF"
+}

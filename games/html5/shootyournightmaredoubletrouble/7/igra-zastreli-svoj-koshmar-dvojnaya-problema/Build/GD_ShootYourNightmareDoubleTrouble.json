@@ -1,0 +1,16 @@
+{
+"companyName": "PoisonGames",
+"productName": "Shoot Your Nightmare Chapter 2",
+"productVersion": "1.0",
+"dataUrl": "GD_ShootYourNightmareDoubleTrouble.data.unityweb",
+"wasmCodeUrl": "GD_ShootYourNightmareDoubleTrouble.wasm.code.unityweb",
+"wasmFrameworkUrl": "GD_ShootYourNightmareDoubleTrouble.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"backgroundUrl": "GD_ShootYourNightmareDoubleTrouble.jpg",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#FFFFFF",
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.1.1f1"
+}

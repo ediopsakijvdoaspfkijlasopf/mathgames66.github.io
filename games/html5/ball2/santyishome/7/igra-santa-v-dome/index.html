@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Игра Санта в Доме - Vseigru.net</title>
+<link rel="stylesheet" href="/lib/game-loader/gameloader2020.css" />
+<script src="/lib/game-loader/gameloader2020.js"></script>
+<meta charset="UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+<script type="text/javascript">
+	var options = {
+		author: "Vseigru",
+		logo: "logo.jpg",
+		gameName: "Игра Санта в Доме",
+		gameNameEu: "Santy is Home",
+		gameUrl: "42130",
+		moreLink: ("https://vseigru.net"),
+		allowFullscreen: true,
+		locale: "ru_RU",
+		loader: "unity2020",
+		loaderOptions: {
+			unityLoaderUrl: "Build/WebGL.loader.js",
+			unityConfigOptions: {
+				dataUrl: "Build/WebGL.data",
+				frameworkUrl: "Build/WebGL.framework.js",
+			    codeUrl: "Build/WebGL.wasm",
+				streamingAssetsUrl: "StreamingAssets"
+			}
+		},
+    };
+	GameInit.load(options);	  
+</script>
+</body>
+</html>

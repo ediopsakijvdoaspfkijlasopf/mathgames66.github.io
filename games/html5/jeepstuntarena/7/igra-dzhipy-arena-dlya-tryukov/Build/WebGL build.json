@@ -1,0 +1,17 @@
+{
+"companyName": "Driving Games",
+"productName": "Offraod SUV Stunt Jeep Driving 4x4",
+"productVersion": "0.1",
+"dataUrl": "WebGL build.data.unityweb",
+"wasmCodeUrl": "WebGL build.wasm.code.unityweb",
+"wasmFrameworkUrl": "WebGL build.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"backgroundUrl": "WebGL build.jpg",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#FFFFFF",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.1.4f1"
+}

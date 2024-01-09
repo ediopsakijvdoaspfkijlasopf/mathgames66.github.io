@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Игра Железный Человек: Битва за Город - Vseigru.net</title>
+<link rel="stylesheet" href="/lib/game-loader/gameloader2020.css" />
+<script src="/lib/game-loader/gameloader2020.js"></script>
+<script src="gamebreak.js" type="text/javascript"></script>
+<meta charset="UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+<script type="text/javascript">
+	var options = {
+		author: "Vseigru",
+		logo: "logo.jpg",
+		gameName: "Железный Человек: Битва за Город",
+		gameNameEu: "Iron Man: City Battle",
+		gameUrl: "32819",
+		moreLink: ("https://vseigru.net"),
+		allowFullscreen: true,
+		locale: "ru_RU",
+		loader: "unity2020",
+		loaderOptions: {
+			unityLoaderUrl: "Build/IronMan.loader.js",
+			unityConfigOptions: {
+				dataUrl: "Build/IronMan.data.unityweb",
+				frameworkUrl: "Build/IronMan.framework.js.unityweb",
+			    codeUrl: "Build/IronMan.wasm.unityweb",
+				streamingAssetsUrl: "StreamingAssets"
+			}
+		},
+    };
+	GameInit.load(options);	  
+</script>
+</body>
+</html>
